@@ -11,7 +11,7 @@ steps {
 bat """
 if exist out rmdir /s /q out
 mkdir out
-javac -d out src\\hello\\Hello.java
+javac -d out hello\\hello.java
 """
 
 }
